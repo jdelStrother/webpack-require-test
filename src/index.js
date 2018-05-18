@@ -1,3 +1,3 @@
-import DateAndTime from "date-and-time"
-
-DateAndTime.format(new Date(), 'h:m A')
+window.getDependency = function(a) {
+  return require("./dependencies/" + a)
+}
